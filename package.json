@@ -1,0 +1,23 @@
+{
+  "name": "tuner-app",
+  "version": "1.0.0",
+  "description": "a simple tuning app using Rive and web audio APIs",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Zach Plata",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.0",
+    "@parcel/optimizer-data-url": "^2.8.0",
+    "@parcel/transformer-inline-string": "^2.8.0",
+    "@parcel/transformer-raw": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "@rive-app/canvas-single": "^1.0.91"
+  }
+}
