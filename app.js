@@ -82,6 +82,11 @@ async function start() {
         frequency,
         getPitchFrequencyFromNote(midiPitch)
       );
+      tuningValueInput.value = lerp(
+        tuningValueInput.value,
+        hzOffPitch + 50,
+        0.1
+      );
     }
   }
 
